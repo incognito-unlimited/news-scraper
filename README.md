@@ -34,11 +34,11 @@ cd [your-project-directory]
 
 **2. Create a virtual environment (Recommended):**
 
-# For Windows
+*For Windows*
 python -m venv venv
 .\venv\Scripts\activate
 
-# For macOS/Linux
+*For macOS/Linux*
 python3 -m venv venv
 source venv/bin/activate
 
