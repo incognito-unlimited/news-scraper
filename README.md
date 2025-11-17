@@ -34,11 +34,11 @@ cd [your-project-directory]
 
 **2. Create a virtual environment (Recommended):**
 
-*For Windows*
+**For Windows**
 python -m venv venv
 .\venv\Scripts\activate
 
-*For macOS/Linux*
+**For macOS/Linux**
 python3 -m venv venv
 source venv/bin/activate
 
@@ -47,7 +47,7 @@ Step 1: Install all dependencies except pygooglenews. This includes the modern, 
 Step 2: Force-install pygooglenews without its broken dependencies (which we've already handled).Bashpip install --no-deps pygooglenews
 You are now ready to run the script.
 
-**▶️ How to Run**
+## ▶️ How to Run
 Once all dependencies are installed, simply run the Python script from your terminal:
 python news_scraper.py
 
@@ -66,7 +66,7 @@ Saving to google_news_last_10_days.xlsx...
 
 ✅ Successfully fetched and saved news articles.
 
-**📊 Example Output**
+## 📊 Example Output
 After the script finishes, you will find two new files in your project directory:
 google_news_last_10_days.csv - A CSV file for use in data analysis.
 google_news_last_10_days.xlsx - A well-formatted Excel file for easy viewing.
