@@ -1,0 +1,4 @@
+pygooglenews 
+pandas 
+openpyxl 
+beautifulsoup4
